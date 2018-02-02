@@ -8,9 +8,8 @@ class Punto
 
 end
 
-
-10.times do 
+puts 'aqui comienza x'
+10.times do |i|
    c = Punto.new(rand(0..100), rand(0..100))
-   puts 'aqui comienza x'
-   puts 'aqui comienza'
+   puts "el punto #{i + 1} (#{c.posicionx}, #{c.posiciony})"
 end
